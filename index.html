@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aguirre Aguilar Esteban</title>
+    <!-- Importación de fuente moderna desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0b0f0c; /* Fondo negro profundo con un toque verde oscuro */
+            color: #ffffff;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: linear-gradient(145deg, #121814, #0a0d0a);
+            width: 100%;
+            max-width: 650px;
+            padding: 40px 30px;
+            border-radius: 16px;
+            border: 1px solid #1e3323;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7),
+                        0 0 20px rgba(16, 124, 65, 0.15); /* Resplandor sutil verde */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8),
+                        0 0 30px rgba(16, 124, 65, 0.3);
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #ffffff;
+            text-transform: uppercase;
+            line-height: 1.4;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #2ea043; /* Verde fuerte destacado */
+            letter-spacing: 0.5px;
+        }
+
+        .btn-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 28px;
+            background-color: #107c41; /* Verde fuerte de fondo */
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            width: 500px;
+            border-radius: 8px;
+            border: 1px solid #2ea043;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(16, 124, 65, 0.3);
+        }
+
+        .btn-link:hover {
+            background-color: #159e53;
+            box-shadow: 0 6px 18px rgba(21, 158, 83, 0.5);
+            transform: scale(1.03);
+        }
+
+        .btn-link:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>THIS IS MY FIRST TEST OF FRONT END IN THE CLOUD</h1>
+        <h3>Aguirre Aguilar Esteban</h3>
+        <a href="aguirre_idea_diagram.html" class="btn-link">Principal Process of my company diagram</a>
+        <a href="aguirre_atraccion_clientes.html" class="btn-link">Get clients for my compant diagram</a>
+        <a href="aguirre_diagrama_dinero.html" class="btn-link">Gain money with my company diagram</a>
+    </div>
+
+</body>
+</html>

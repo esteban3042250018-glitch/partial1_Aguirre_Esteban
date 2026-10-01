@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="Dx2CZP_0UoHgPupLHbDN" name="Page-1">
+        <mxGraphModel dx="720" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="inicio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="INICIO: Plan de Atracción" vertex="1">
+                    <mxGeometry height="50" width="170" x="314" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mkt_content" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Contenido Técnico&#xa;(LinkedIn / Blog Posts)" vertex="1">
+                    <mxGeometry height="50" width="160" x="120" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="mkt_ads" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Anuncios Dirigidos&#xa;(Devs / Tech Leads)" vertex="1">
+                    <mxGeometry height="50" width="160" x="319" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="mkt_calc" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Calculadora Gratuita&#xa;de Ahorro Cloud" vertex="1">
+                    <mxGeometry height="50" width="160" x="510" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="landing" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Visita a la Landing Page" vertex="1">
+                    <mxGeometry height="40" width="180" x="309" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="dec_registro" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="¿El prospecto&#xa;se registra?" vertex="1">
+                    <mxGeometry height="80" width="140" x="329" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="free_trial" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Crear Cuenta Free Trial&#xa;(14 Días sin tarjeta)" vertex="1">
+                    <mxGeometry height="50" width="160" x="190" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="retargeting" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Email Nurturing /&#xa;Casos de Estudio" vertex="1">
+                    <mxGeometry height="50" width="150" x="450" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="value_demo" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="Dashboard Muestra Alerta:&#xa;&quot;¡Ahorro Detectado: $120 USD!&quot;" vertex="1">
+                    <mxGeometry height="50" width="230" x="155" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="dec_pago" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="¿Elige un Plan&#xa;de Pago?" vertex="1">
+                    <mxGeometry height="80" width="140" x="329" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="pago" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Pasarela de Pagos&#xa;(Stripe / PayPal)" vertex="1">
+                    <mxGeometry height="50" width="150" x="200" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="abandono" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Cuenta Inactiva /&#xa;Plan Limitado" vertex="1">
+                    <mxGeometry height="50" width="150" x="450" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="db" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontStyle=1" value="Base de Datos MySQL&#xa;(Cliente Activo - MRR Recurrente)" vertex="1">
+                    <mxGeometry height="70" width="200" x="175" y="720" as="geometry"/>
+                </mxCell>
+                <mxCell id="fin" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="FIN: Cliente Fidelizado" vertex="1">
+                    <mxGeometry height="50" width="170" x="314" y="830" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" edge="1" parent="1" source="inicio" target="mkt_content">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" edge="1" parent="1" source="inicio" target="mkt_ads">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" edge="1" parent="1" source="inicio" target="mkt_calc">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" edge="1" parent="1" source="mkt_content" target="landing">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" edge="1" parent="1" source="mkt_ads" target="landing">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" edge="1" parent="1" source="mkt_calc" target="landing">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" edge="1" parent="1" source="landing" target="dec_registro">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" edge="1" parent="1" source="dec_registro" target="free_trial" value="SÍ">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" edge="1" parent="1" source="dec_registro" target="retargeting" value="NO">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" edge="1" parent="1" source="free_trial" target="value_demo">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" edge="1" parent="1" source="value_demo" target="dec_pago">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e12" edge="1" parent="1" source="retargeting" target="dec_pago">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e13" edge="1" parent="1" source="dec_pago" target="pago" value="SÍ">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e14" edge="1" parent="1" source="dec_pago" target="abandono" value="NO">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e15" edge="1" parent="1" source="pago" target="db">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e16" edge="1" parent="1" source="db" target="fin">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e17" edge="1" parent="1" source="abandono" target="fin">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="pdMGFwhzUAM4n1UZeOmj" name="Page-1">
+        <mxGraphModel dx="720" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="inicio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="INICIO" vertex="1">
+                    <mxGeometry height="50" width="120" x="340" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mkt" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Estrategia de Marketing&#xa;(LinkedIn, Ads, Contenido)" vertex="1">
+                    <mxGeometry height="60" width="190" x="305" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="eval_trial" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="¿Acepta Prueba&#xa;Gratis?" vertex="1">
+                    <mxGeometry height="80" width="140" x="330" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="trial" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Crear Cuenta Free Trial&#xa;(14 Días)" vertex="1">
+                    <mxGeometry height="50" width="150" x="210" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="retargeting" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Campañas de&#xa;Retargeting / Emails" vertex="1">
+                    <mxGeometry height="50" width="150" x="440" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="plans" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="¿Qué plan elige?" vertex="1">
+                    <mxGeometry height="80" width="140" x="330" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Starter: $29/mes" vertex="1">
+                    <mxGeometry height="40" width="120" x="180" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pro: $79/mes" vertex="1">
+                    <mxGeometry height="40" width="120" x="340" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enterprise: $199/mes" vertex="1">
+                    <mxGeometry height="40" width="120" x="500" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="db" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="Base de Datos MySQL&#xa;(Registrar Suscripción)" vertex="1">
+                    <mxGeometry height="70" width="150" x="325" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="fin" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="FIN" vertex="1">
+                    <mxGeometry height="50" width="120" x="340" y="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" edge="1" parent="1" source="inicio" target="mkt">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" edge="1" parent="1" source="mkt" target="eval_trial">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" edge="1" parent="1" source="eval_trial" target="trial" value="SÍ">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" edge="1" parent="1" source="eval_trial" target="retargeting" value="NO">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" edge="1" parent="1" source="trial" target="plans">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" edge="1" parent="1" source="plans" target="p1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" edge="1" parent="1" source="plans" target="p2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" edge="1" parent="1" source="plans" target="p3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" edge="1" parent="1" source="p1" target="db">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" edge="1" parent="1" source="p2" target="db">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" edge="1" parent="1" source="p3" target="db">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e12" edge="1" parent="1" source="db" target="fin">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
